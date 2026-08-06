@@ -1,0 +1,34 @@
+/* responsive.css - mobile-first adjustments and nav behaviors */
+/* Mobile layout already defined; add mobile menu and small tweaks */
+.nav {
+    display: none
+}
+
+.menu-toggle {
+    display: block
+}
+
+/* When menu is open (JS toggles .open on #nav) */
+#nav.open {
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 64px;
+    background: rgba(2, 8, 16, 0.95);
+    padding: 1rem
+}
+
+#nav.open .nav-list {
+    flex-direction: column
+}
+
+@media(min-width:860px) {
+    .nav {
+        display: block
+    }
+
+    .menu-toggle {
+        display: none
+    }
+}
