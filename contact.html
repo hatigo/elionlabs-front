@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Contato — ElionLabs</title>
+    <meta name="description" content="Contato ElionLabs - e-mail, WhatsApp, LinkedIn e GitHub">
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/pages.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="index.html" class="brand"><img src="assets/logo/logo.svg" alt="ElionLabs" class="logo"></a>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="privacy.html">Política de Privacidade</a></li>
+                    <li><a href="terms.html">Termos de Uso</a></li>
+                    <li><a href="contact.html">Contato</a></li>
+                </ul>
+            </nav>
+            <button id="menu-toggle" class="menu-toggle">☰</button>
+        </div>
+    </header>
+
+    <main class="container page">
+        <h1>Contato</h1>
+
+        <section>
+            <h2>Fale conosco</h2>
+            <ul class="contact-list">
+                <li><strong>E-mail:</strong> contato@elionlabs.com</li>
+                <li><strong>WhatsApp:</strong> +5584988100012</li>
+                <li><strong>LinkedIn:</strong> —</li>
+                <li><strong>GitHub:</strong> <a href="https://github.com/hatigo">https://github.com/hatigo</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Formulário</h2>
+            <p>Formulário visual (sem backend). Envie dados por e-mail ou WhatsApp conforme preferir.</p>
+            <form id="contact-form" class="contact-form" onsubmit="return false;">
+                <label for="name">Nome</label>
+                <input id="name" name="name" type="text" placeholder="Seu nome">
+
+                <label for="email">E-mail</label>
+                <input id="email" name="email" type="email" placeholder="seu@exemplo.com">
+
+                <label for="message">Mensagem</label>
+                <textarea id="message" name="message" rows="5" placeholder="Como podemos ajudar?"></textarea>
+
+                <div class="form-actions">
+                    <button class="btn btn-primary" type="submit">Enviar (simulação)</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <div class="footer-links">
+                <a href="index.html">Início</a>
+                <a href="privacy.html">Política de Privacidade</a>
+                <a href="terms.html">Termos de Uso</a>
+                <a href="contact.html">Contato</a>
+            </div>
+            <div class="copyright">© ElionLabs</div>
+        </div>
+    </footer>
+
+    <script src="js/main.js" defer></script>
+    <script src="js/menu.js" defer></script>
+</body>
+
+</html>
