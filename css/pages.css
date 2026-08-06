@@ -1,0 +1,48 @@
+/* pages.css - specific page tweaks */
+.about p {
+    color: var(--muted);
+    line-height: 1.6
+}
+
+.cards-grid .card {
+    min-height: 120px
+}
+
+.contact-list {
+    list-style: none;
+    padding: 0
+}
+
+.contact-list li {
+    margin: 0.35rem 0;
+    color: var(--muted)
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem
+}
+
+.contact-form input,
+.contact-form textarea {
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    padding: 0.6rem;
+    border-radius: 8px;
+    color: var(--foreground)
+}
+
+.notfound {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    text-align: center
+}
+
+.notfound h1 {
+    font-size: 4rem;
+    margin: 0
+}
