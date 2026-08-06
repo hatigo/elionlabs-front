@@ -10,17 +10,16 @@ Como usar:
 
 Estrutura principal:
 
-- `index.html`, `privacy.html`, `terms.html`, `contact.html`, `404.html`
-- `css/` - estilos
-- `js/` - scripts Vanilla JS
-- `assets/` - logos, favicon e imagens
 
 Observações:
 
-- O formulário em `contact.html` é apenas visual; integre com backend ou serviço de e-mail para envios reais.
-- Contato principal configurado: `contato@elionlabs.com`, WhatsApp `+5584988100012`.
-- URLs do GitHub Pages e sitemap já foram atualizados para `https://hatigo.github.io/elionlabs-front/`.
 
 *** Licença
 
+Proprietary — All Rights Reserved
+
+Este repositório está público apenas para showcase. Qualquer uso, cópia,
+modificação, distribuição ou uso comercial por terceiros ou empresas é
+proibido sem autorização prévia por escrito da ElionLabs. Para solicitar
+licença ou permissão, contate: contato@elionlabs.com
 MIT# elionlabs-front
